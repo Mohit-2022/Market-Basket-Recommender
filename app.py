@@ -17,15 +17,19 @@ product_list = sorted(list(all_products))
 # ------------------ Recommendation Function ------------------
 def recommend_products(product_name):
 
+    filtered_rules = rules[
+        rules['antecedents'].apply(lambda x: product_name in x)
+    ]
+
+    filtered_rules = filtered_rules.sort_values(
+        by='lift', ascending=False
+    )
+
     recommendations = []
 
-    for i in range(len(rules)):
-        
-        antecedent = list(rules.iloc[i]['antecedents'])
-        consequent = list(rules.iloc[i]['consequents'])
-
-        if product_name in antecedent:
-            recommendations.extend(consequent)
+    for i in range(len(filtered_rules)):
+        consequent = list(filtered_rules.iloc[i]['consequents'])
+        recommendations.extend(consequent)
 
     return list(set(recommendations))[:5]
 
