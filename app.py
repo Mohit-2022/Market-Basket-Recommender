@@ -1,8 +1,20 @@
 import streamlit as st
 import pickle
+import pandas as pd
 
+# ------------------ Load Saved Rules ------------------
 rules = pickle.load(open('association_rules.pkl','rb'))
 
+# ------------------ Get All Available Products ------------------
+all_products = set()
+
+for i in range(len(rules)):
+    for item in list(rules.iloc[i]['antecedents']):
+        all_products.add(item)
+
+product_list = sorted(list(all_products))
+
+# ------------------ Recommendation Function ------------------
 def recommend_products(product_name):
 
     recommendations = []
@@ -18,9 +30,13 @@ def recommend_products(product_name):
     return list(set(recommendations))[:5]
 
 
+# ------------------ Streamlit UI ------------------
 st.title("🛒 Frequently Bought Together System")
 
-product_input = st.text_input("Enter Product Name")
+product_input = st.selectbox(
+    "Select Product",
+    product_list
+)
 
 if st.button("Recommend"):
 
