@@ -1,4 +1,4 @@
-                                            **   Frequently Bought Together Recommendation System**
+                                            **Frequently Bought Together Recommendation System**
 
 This project builds an end-to-end Market Basket Analysis based recommendation engine using the Instacart dataset to identify product combinations that are frequently purchased together. 
 The system leverages Association Rule Mining techniques to generate real-time product recommendations for cross-selling opportunities in retail environments.
