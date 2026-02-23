@@ -133,6 +133,8 @@ Each order represents a customer’s basket containing multiple purchased items.
 
 
 
+https://instacartfbtrecommender-dn4rqpmjb65xa99rhd2522.streamlit.app/
+
 
 
 
