@@ -138,6 +138,10 @@ Each order represents a customer’s basket containing multiple purchased items.
 [Click Here to Use Live App]
 https://instacartfbtrecommender-dn4rqpmjb65xa99rhd2522.streamlit.app/
 
+Author
+Mohit Kushwaha
+LinkedIn: www.linkedin.com/in/mohit-kushwaha-024401112
+
 
 
 
