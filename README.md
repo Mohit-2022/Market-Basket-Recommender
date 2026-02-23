@@ -1,9 +1,9 @@
-**1. Frequently Bought Together Recommendation System**
+                                            **   Frequently Bought Together Recommendation System**
 
 This project builds an end-to-end Market Basket Analysis based recommendation engine using the Instacart dataset to identify product combinations that are frequently purchased together. 
 The system leverages Association Rule Mining techniques to generate real-time product recommendations for cross-selling opportunities in retail environments.
 
-**2.  Problem Statement**
+**1.  Problem Statement**
 
 Retailers often aim to increase revenue by recommending complementary products to customers during purchase. However, identifying meaningful product relationships from millions 
 of transactions manually is not feasible.
@@ -18,7 +18,7 @@ The objective of this project is to:
   
   d) Deploy a user-friendly recommendation system using Streamlit
 
-**3.  Approach**
+**2.  Approach**
 
 The recommendation engine is built using Association Rule Mining, specifically:
 
@@ -32,7 +32,7 @@ The recommendation engine is built using Association Rule Mining, specifically:
 
 These metrics help quantify relationships between products based on historical transaction data.
 
-**4. Dataset**
+**3. Dataset**
 
 The Instacart Online Grocery Shopping Dataset was used, containing over:
 
@@ -44,7 +44,7 @@ The Instacart Online Grocery Shopping Dataset was used, containing over:
 
 Each order represents a customer’s basket containing multiple purchased items.
 
-**5. Methodology**
+**4. Methodology**
 
   a) Data Preprocessing
 
@@ -101,14 +101,14 @@ Each order represents a customer’s basket containing multiple purchased items.
     enable real-time recommendations via an interactive web application.
 
 
-**6. Project Structure**
+**5. Project Structure**
 
     association_rules.pkl   → Saved association rules  
     app.py                  → Streamlit application  
     requirements.txt        → Dependencies  
     README.md               → Project documentation
  
-**7. Tech Stack**
+**6. Tech Stack**
 
     Python
     
@@ -120,7 +120,7 @@ Each order represents a customer’s basket containing multiple purchased items.
     
     Pickle
  
- **8. Business Impact**
+ **7. Business Impact**
  
     This system can help retailers:
     
