@@ -92,7 +92,8 @@ Each order represents a customer’s basket containing multiple purchased items.
     
     Rank recommendations based on Lift
     
-    Return Top 5 complementary products , but unfortunately only 1 complementary products is refelcting considering association rule
+    Return up to Top 5 complementary products based on statistically significant association rules (Support, Confidence, Lift). 
+    The number of recommendations may vary depending on the strength of product co-occurrence patterns in the dataset
 
   e) Model Deployment
 
@@ -134,7 +135,8 @@ Each order represents a customer’s basket containing multiple purchased items.
 
 
 
-[Click Here to Use Live App](https://instacartfbtrecommender-dn4rqpmjb65xa99rhd2522.streamlit.app/)
+[Click Here to Use Live App]
+https://instacartfbtrecommender-dn4rqpmjb65xa99rhd2522.streamlit.app/
 
 
 
