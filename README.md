@@ -1,10 +1,12 @@
 **1. Frequently Bought Together Recommendation System**
 
-This project builds an end-to-end Market Basket Analysis based recommendation engine using the Instacart dataset to identify product combinations that are frequently purchased together. The system leverages Association Rule Mining techniques to generate real-time product recommendations for cross-selling opportunities in retail environments.
+This project builds an end-to-end Market Basket Analysis based recommendation engine using the Instacart dataset to identify product combinations that are frequently purchased together. 
+The system leverages Association Rule Mining techniques to generate real-time product recommendations for cross-selling opportunities in retail environments.
 
 **2.  Problem Statement**
 
-Retailers often aim to increase revenue by recommending complementary products to customers during purchase. However, identifying meaningful product relationships from millions of transactions manually is not feasible.
+Retailers often aim to increase revenue by recommending complementary products to customers during purchase. However, identifying meaningful product relationships from millions 
+of transactions manually is not feasible.
 
 The objective of this project is to:
 
@@ -96,7 +98,7 @@ Each order represents a customer’s basket containing multiple purchased items.
     The generated association rules were serialized using Pickle and deployed using Streamlit Cloud to enable real-time recommendations via an 
     interactive web application.
 
-    Live App -    https://instacartfbtrecommender-dn4rqpmjb65xa99rhd2522.streamlit.app/
+    🔗 [Click Here to Use Live App](https://instacartfbtrecommender-dn4rqpmjb65xa99rhd2522.streamlit.app/)
 
 **6. Project Structure**
 
@@ -131,8 +133,6 @@ Each order represents a customer’s basket containing multiple purchased items.
 
 
 
-
-https://instacartfbtrecommender-dn4rqpmjb65xa99rhd2522.streamlit.app/
 
 
 
