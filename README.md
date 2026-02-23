@@ -95,7 +95,9 @@ Each order represents a customer’s basket containing multiple purchased items.
 
     The generated association rules were serialized using Pickle and deployed using Streamlit Cloud to enable real-time recommendations via an interactive web application.
 
-    Live App -   https://instacartfbtrecommender-dn4rqpmjb65xa99rhd2522.streamlit.app/
+    Live App -  
+    
+    https://instacartfbtrecommender-dn4rqpmjb65xa99rhd2522.streamlit.app/
 
 **6. Project Structure**
 
